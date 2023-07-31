@@ -1,14 +1,14 @@
-package dataStructures.validate;
+package exercises.validateformatstring1;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class ValidateFormatStringTest {
+public class ValidateFormatString1Test {
 
     @Test
     public void isValid() {
-        ValidateFormatString validateFormatString = new ValidateFormatString();
+        ValidateFormatString1 validateFormatString = new ValidateFormatString1();
         assertEquals(true, validateFormatString.isValid(""));
         assertEquals(true, validateFormatString.isValid("()"));
         assertEquals(true, validateFormatString.isValid("[()]"));
