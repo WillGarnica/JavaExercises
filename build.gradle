@@ -1,8 +1,14 @@
 plugins {
+    id 'application'
     id 'java'
 }
 
-group = 'exercises'
+compileJava{
+    options.release = 17
+
+}
+
+//group = 'exercises'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -16,4 +22,9 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'exercises.Exercises'
 }
