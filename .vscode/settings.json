@@ -1,0 +1,6 @@
+{
+    "java.test.config": {
+        "name": "mytTestConfig"
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
