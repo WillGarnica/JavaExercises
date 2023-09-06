@@ -1,17 +1,21 @@
 package exercises.validateformatstring1;
 
-
 import java.util.Map;
 import java.util.Stack;
 
 /**
  * Given a string that only contains the symbols ()[]{}, make a method that
  * returns true if the format is correct or false if it is not correct.
- * example:
+ * examples:
+ * <p>
  * () = true
+ * <p>
  * (() = false
+ * <p>
  * ()[]{} = true
+ * <p>
  * ([{)]} = true
+ * <p>
  * ([)] = false
  */
 public class ValidateFormatString1 {
@@ -24,6 +28,24 @@ public class ValidateFormatString1 {
             "]", "[",
             "}", "{");
 
+    /**
+     * Given a string that only contains the symbols ()[]{}, make a method that
+     * returns true if the format is correct or false if it is not correct.
+     * examples:
+     * <p>
+     * () = true
+     * <p>
+     * (() = false
+     * <p>
+     * ()[]{} = true
+     * <p>
+     * ([{)]} = true
+     * <p>
+     * ([)] = false
+     * 
+     * <p> 
+     * @parameter text 
+     */
     boolean isValid(String text) {
         if (null == text)
             return false;

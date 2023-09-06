@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/workspaces/JavaExercisestestexercises",
+			"script": "test",
+			"description": "Runs the test suite.",
+			"group": {
+				"kind": "test",
+				"isDefault": "**.java"
+			},
+			"project": "exercises",
+			"buildFile": "/workspaces/JavaExercises/build.gradle",
+			"rootProject": "exercises",
+			"projectFolder": "/workspaces/JavaExercises",
+			"workspaceFolder": "/workspaces/JavaExercises",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: test"
+		}
+	]
+}
